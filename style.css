@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	/*border: 1px solid red;*/
+	margin: 0 auto; 
+}
+.main-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5px;
+}
+.right-section{
+	display: flex;
+	align-items: center;
+}
+.right-section ul{
+     list-style: none;
+     display: flex;
+     /*padding: 10px;*/
+
+}
+.road-assistance{
+	display: flex;
+	padding-left: 20px;
+}
+
+.right-section a{
+	text-decoration: none;
+	color: black;
+}
+
+.icon-width{
+	width: 10%;
+}
+.right-section ul li{
+	margin-right: 20px;
+}
+
+
+.navigation{
+	border-right: 2px solid #ccc;
+}
+.icon{
+	margin-left: 10px;
+}
+
+.flex{
+	display:flex;
+}
+
+#hero-section{
+	padding:80px 0;
+}
+#hero-section .text-section{
+	width:45%;
+}
+ #hero-section .img-section{
+	width:55%;
+
+}
+
+#hero-section .img-section{
+	background-image: url("image/working.png");
+	background-size: cover;
+	background-position: center;
+	min-height:70vh;
+}
+.text-section h1{
+	font-size: 50px;
+}
+.Orange-btm{
+	background: #ff6433;
+	border-radius: 12px;
+	padding: 16px 40px;
+	text-decoration: none;
+	font-size: 18px;
+	color:white;
+	margin-top: 40px;
+	display: inline-block;
+}
+.time-section{ 
+	display:flex;
+	 align-items: center;  
+	 margin-top: 30px;  
+}
+.time-section .img-box{
+	width:5%;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.time-section .text-box{
+	width:80%;
+
+}
+.light-grey{
+	color: #919191;
+}
+#quote-section{
+	padding:80px 0;
+	background: #e2e6e9;
+
+}
+#quote-section .form-section, #quote-section .write-up{
+	width:45%;
+
+}
+
